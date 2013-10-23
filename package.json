@@ -1,0 +1,13 @@
+{
+  "name": "post2tumblr",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "async": "latest"
+  }
+}
