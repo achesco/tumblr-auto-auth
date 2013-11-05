@@ -29,6 +29,8 @@
 		"zombie": ">=2",
 		"async": "latest",
 		"tumblr.js": "0.0.4",
-		"oauth": "0.9.10"
+		"oauth": "0.9.10",
+		"commander": "~2.0.0",
+		"assert": "0.4.9"
 	}
 }
