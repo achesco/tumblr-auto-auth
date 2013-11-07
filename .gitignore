@@ -3,9 +3,8 @@
 .DS_Store
 npm-debug.log
 
-!node_modules/
-node_modules/*
-!node_modules/app/
+node_modules
+tmp
 
 credentials.json
-
+.post2tumblr.access
