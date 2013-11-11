@@ -3,7 +3,6 @@ var oauth = require('oauth').OAuth,
 	async = require('async'),
 	app = require('express')(),
 	tumblr = require('tumblr.js'),
-	util = require('util'),
 	fs = require('fs'),
 	assert = require('assert'),
 	commander = require('commander');
