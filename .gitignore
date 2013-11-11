@@ -7,4 +7,5 @@ node_modules
 tmp
 
 credentials.json
-.post2tumblr.access
+*.keys
+test.js
