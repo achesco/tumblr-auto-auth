@@ -29,7 +29,7 @@
 		"express":"latest",
 		"async": "latest",
 		"node-uuid": "latest",
-		"zombie": ">=2",
+		"zombie": "2.*",
 		"tumblr.js": "0.0.4"
 	}
 }
