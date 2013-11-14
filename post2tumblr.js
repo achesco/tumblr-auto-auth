@@ -137,16 +137,26 @@ function getClient (clientCallback) {
 						browser.visit(config.tumblrAuthorizeUrl + '?oauth_token=' + credentials.token, next);
 					},
 					function (next) {
-						browser
-							.fill("user[email]", credentials.userEmail)
-							.fill("user[password]", credentials.userPassword)
-							.pressButton("Submit", next);
+						try {
+							browser
+								.fill("user[email]", credentials.userEmail)
+								.fill("user[password]", credentials.userPassword)
+								.pressButton("Submit", next);
+						}
+						catch (err) {
+							next(err)
+						}
 					},
 					function (next) {
 						browser.visit(config.tumblrAuthorizeUrl + '?oauth_token=' + credentials.token, next);
 					},
 					function (next) {
-						browser.pressButton('button[name="allow"]', next);
+						try {
+							browser.pressButton('button[name="allow"]', next);
+						}
+						catch (err) {
+							next(err)
+						}
 					}
 				]);
 
