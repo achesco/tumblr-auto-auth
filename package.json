@@ -11,7 +11,7 @@
 		"email": "achesco@gmail.com",
 		"url": "http://antonlysenko.com/"
 	},
-	"main": "post2tumblr.js",
+	"main": "./lib/index.js",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:chesco-als/post2tumblr.git"
