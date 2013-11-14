@@ -4,7 +4,7 @@ Automatic oauth-authenticated tumblr client creation tool.
 
 ## Overview
 
-Module provides two main tools to complete the 3-legged oauth process with minimal efforts and returns authenticated
+Module provides two ways to complete the 3-legged oauth process with minimal efforts and returns authenticated
 [tumblr.js](https://github.com/tumblr/tumblr.js) client instance to callback.
 
 ## Installation
@@ -13,20 +13,20 @@ Module provides two main tools to complete the 3-legged oauth process with minim
 
 	> npm install tumblr-auto-auth
 
-2. Register application with tumblr
-2.1. [Visit registration form](http://www.tumblr.com/oauth/register)
+2. Register application with tumblr.
+2.1. [Visit registration form](http://www.tumblr.com/oauth/register).
 2.2. Fill form with data:
 
-	-Application name: `tumblr-auto-auth`
-	-Application website: `https://github.com/chesco-als/tumblr-auto-auth`
-	-Administrative contact email: fill in your email address
-	-Default callback URL: `http://localhost:9992/tumblr-auth`
+	*application name: `tumblr-auto-auth`
+	*application website: `https://github.com/chesco-als/tumblr-auto-auth`
+	*administrative contact email: fill in your email address
+	*default callback URL: `http://localhost:9992/tumblr-auth`
 
-2.3. [Note `OAuth Consumer Key` and `Secret Key`](http://www.tumblr.com/oauth/apps)
+2.3. Note `OAuth Consumer Key` and `Secret Key`[from your account apps page](http://www.tumblr.com/oauth/apps).
 
 ## Usage
 
-### Hands free method
+### Hands free way
 
 This method isn't considered as reliable. In a long-term perspective especially.
 Sometime tumblr responds with "page not found" code or request timeout can be too long
@@ -52,7 +52,7 @@ Once process successfully completed, callback fired with fully-featured tumblr c
 [Refer to tumblr.js page](https://github.com/tumblr/tumblr.js) and [tumblr API documentation](http://www.tumblr.com/docs/en/api/v2)
 for the client's possibilities.
 
-### One hand method
+### One hand way
 
 This is reliable way for oauth keys obtaining. It involves some user action but doesn't require your account password
 being hardcoded. Once process is done, received keys will be stored to file named `.{your@email}.keys` and can be used
