@@ -46,7 +46,10 @@ require('tumblr-auto-auth').getAuthorizedClient({
 	},
 	function (error, client) {
 		client.userInfo(function (err, data) {
-			console.log(data);
+			if (err)
+				console.log(err);
+			else
+				console.log(data);
 		});
 	});
 ```
