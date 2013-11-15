@@ -73,7 +73,7 @@ require('tumblr-auto-auth').interactiveAuthorization({
 
 Follow the instructions of console and browser output.
 
-After `interactiveAuthorization` method done, received keys will be stored to file named `.{your@email}.keys` and can
+After `interactiveAuthorization` method done, received keys will be stored to file named `.{your@email}.keys` and will
 be used by `getAuthorizedClient` method automatically.
 
 ## `.{your@email}.keys` file
