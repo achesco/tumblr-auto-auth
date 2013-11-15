@@ -45,7 +45,9 @@ require('tumblr-auto-auth').getAuthorizedClient({
 		debug: true
 	},
 	function (error, client) {
-		client.userInfo(...)
+		client.userInfo(function (err, data) {
+			console.log(data);
+		});
 	});
 ```
 
