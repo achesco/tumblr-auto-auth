@@ -1,42 +1,38 @@
 {
-	"name": "tumblr-auto-auth",
-	"version": "0.1.0",
-	"description": "Automatic oauth-authenticated tumblr client creation tool",
-	"homepage": "git://github.com/chesco-als/tumblr-auto-auth",
-	"main": "./lib/index.js",
-	"dependencies": {
-		"assert": "~0.4.9",
-		"async": "~0.2.9",
-		"commander": "~2.0.0",
-		"express": "~3.4.4",
-		"gm": "~1.13.3",
-		"image-metadata": "~0.0.0",
-		"imagemagick": "~0.1.3",
-		"node-uuid": "~1.4.1",
-		"oauth": "~0.9.10",
-		"tumblr.js": "~0.0.4",
-		"zombie": "~2.0.0-alpha24"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/chesco-als/tumblr-auto-auth.git"
-	},
-	"keywords": [
-		"tumblr",
-		"auth",
-		"oauth",
-		"login",
-		"authorization",
-		"authorisation",
-		"api",
-		"authentication"
-	],
-	"author": {
-		"name": "Anton Lysenko",
-		"url": "http://antonlysenko.com/"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/chesco-als/tumblr-auto-auth/issues"
-	}
+  "name": "tumblr-auto-auth",
+  "version": "0.2.0",
+  "description": "Automatic oauth-authenticated tumblr client creation tool",
+  "homepage": "git://github.com/achesco/tumblr-auto-auth",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/achesco/tumblr-auto-auth.git"
+  },
+  "keywords": [
+    "tumblr",
+    "auth",
+    "oauth",
+    "login",
+    "authorization",
+    "authorisation",
+    "api",
+    "authentication",
+    "keys"
+  ],
+  "author": {
+    "name": "Anton Lysenko",
+    "url": "http://antonlysenko.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/achesco/tumblr-auto-auth/issues"
+  },
+  "dependencies": {
+        "async": "~0.2.9",
+        "express": "~3.4.4",
+        "node-uuid": "~1.4.1",
+        "oauth": "~0.9.10",
+        "tumblr.js": "~0.0.4",
+        "slimerjs": "0.9.*"
+  }
 }
