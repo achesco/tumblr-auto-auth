@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/tumblr-auto-auth.png?compact=true)](https://nodei.co/npm/tumblr-auto-auth/)
+
 # tumblr-auto-auth
 
 Automatic oauth-authenticated tumblr client creation tool.
