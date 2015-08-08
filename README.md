@@ -22,7 +22,7 @@ Module provides two ways to complete the 3-legged oauth process with minimal eff
 2.2. Fill form with data:
 
 * application name: `tumblr-auto-auth`
-* application website: `https://github.com/chesco-als/tumblr-auto-auth`
+* application website: `https://github.com/achesco/tumblr-auto-auth`
 * administrative contact email: fill in your email address
 * default callback URL: `http://localhost:9992/tumblr-auth`
 
